@@ -34,7 +34,7 @@ const items = [{
 },
 {
 	label: 'Blog',
-	url: 'https://medium.com/@RobertJGabriel'
+	url: 'https://blog.robertgabriek.ninja'
 },
 {
 	label: 'Contact',

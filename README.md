@@ -4,13 +4,12 @@
 
 <img src="screenshot.png" width="752">
 
-
 ## Usage
 
 Install Node.js, then:
 
-```
-$ npx robertgabriel
+```js
+npx robertgabriel
 ```
 
 
@@ -20,6 +19,4 @@ $ npx robertgabriel
 - [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal
 
 
-
-
-All credit goes to Sindre Sorhus](https://sindresorhus.com) for the idea.
+All credit goes to [Sindre Sorhus](https://sindresorhus.com) for the idea.
