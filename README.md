@@ -1,22 +1,47 @@
-# robertgabriel [![Build Status](https://travis-ci.org/RobertJGabriel/website-cli.svg?branch=master)](https://travis-ci.org/RobertJGabriel/website-cli)
+# website-cli
 
-> The [Robert James Gabriel](https://robertgabriel.ninja) CLI
+> My CV as a command-line app.
 
-<img src="screenshot.png" width="752">
+[![npm](https://img.shields.io/npm/v/robertgabriel.svg)](https://www.npmjs.com/package/robertgabriel)
+
+Run one command and get an interactive CV in the terminal, avatar included.
+Built with [ink](https://github.com/vadimdemedes/ink) for the interface and
+[terminal-image](https://github.com/sindresorhus/terminal-image) for the picture,
+falling back gracefully on terminals without inline image support.
+
+The idea is [Sindre Sorhus'](https://github.com/sindresorhus) — all credit there.
 
 ## Usage
 
-Install Node.js, then:
+No install needed:
 
-```js
+```sh
 npx robertgabriel
 ```
 
+Or install it globally:
+
+```sh
+npm install -g robertgabriel
+```
+
+```sh
+robertgabriel
+```
+
+Use the arrow keys to move through the menu; selecting a link opens it in your
+browser.
 
 ## Built with
 
-- [ink](https://github.com/vadimdemedes/ink) - React for interactive command-line apps
-- [terminal-image](https://github.com/sindresorhus/terminal-image) - Display images in the terminal
+| Package | Role |
+| --- | --- |
+| `ink` | React for interactive command-line apps |
+| `ink-select-input` | The menu |
+| `terminal-image`, `term-img` | Avatar rendering, with fallback |
+| `meow` | Argument parsing |
+| `opn` | Opening links |
 
+## License
 
-All credit goes to [Sindre Sorhus](https://sindresorhus.com) for the idea.
+MIT © Robert James Gabriel
